@@ -12,70 +12,64 @@
 # # 1.   Building a Basic Calculator
 # # 2.   Mad Libs Game
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # # Review
 # create variables for the following :
 # 1. age
-age=16
+,age=16
 # 2. name
-name="mikey"
+,name="mikey"
 # 3. song
-song="Need4Speed"
+,song="Need4Speed"
 # 4. food
-food="chicken"
+,food="chicken"
 # 5. number
-number=17
-
-
+,number=17
 # #now include the variables you just made print in the following...
-
-
 # Once upon a time, there was a [age] old coder named [name].
 print ("Once upon a time, there was a" + age, "year old coder named" + name)
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
 print (name +"liked to hum the song" + song + "while coding. It was so annoying that their teammates would throw" + food, "until" + name +"would stop singing.")
-
-
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
 print( "Still," + name "was the best coder on the team and could write" + number + "lines of code every day." "Maybe" + song + "was" + name"’s" secret power?)
+##########################################################################################
 ##########################################################################################
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
 
 
 
@@ -173,20 +167,35 @@ print( "Still," + name "was the best coder on the team and could write" + number
 
 ##########################################################################################
 # #addition
+print(2 + 2)
 # #multiplication
+print(2 * 2)
 # #division
+print(2 / 2)
 # #modulo
+print(2 % 2) #remainder
 # #powers
+print(2 ** 2 )
 # #get the max and min of a number
+print(max(2,3)) #max number of the two
+print(min(2,3)) #min number of the two
 # #round a number
+print(round(2.5)) #rounds to the nearest 
 # # absolute value
+print(abs(-2))#absolute value of the number
+
 # # order of operations
+print(2 + 10 * 10 +3)# order of operations
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
 # #floor method
+print(floor(3.3))
+    
 # #ceil method
 # #sqrt method
+print(sqrt(36))
+#square root of the number
 
 
 
