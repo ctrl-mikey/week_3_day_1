@@ -32,56 +32,7 @@ print (name +"liked to hum the song" + song + "while coding. It was so annoying 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
 print( "Still," + name "was the best coder on the team and could write" + number + "lines of code every day." "Maybe" + song + "was" + name"’s" secret power?)
 ##########################################################################################
-##########################################################################################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-,
-
-
-
-
-
-
-
-
-
-
-
-
+#########################################################################################
 
 
 
@@ -136,19 +87,6 @@ print( "Still," + name "was the best coder on the team and could write" + number
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ############################################################################################
 
 
@@ -198,37 +136,28 @@ print(sqrt(36))
 #square root of the number
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ##########################################################################################
 # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
+Input("what is your name")
 # # basic math calculator
 # #ask the user for 2 numbers
+print(Give me a number)
+print(Give me another number)
 # # print out a statement where you:
+print("im a school")
 # # add them together
+print(number1 + number2)
 # #multiply
+print(number1 ** number2)
 # # find the max number
+print(number1, number2)
 # # find the remainder of the numbers
+print(number1 % number2)
 # #round one number
-
-
-
-
-
-
+print(floor(number1))
 
 
 ##########################################################################################
@@ -237,3 +166,4 @@ print(sqrt(36))
 # print("{plural noun} are blue")
 # print("I love {celebrity}")
 # # On to codehs.com
+
